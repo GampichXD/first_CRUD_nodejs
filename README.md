@@ -13,8 +13,8 @@ Menginstal dependensi proyek:
 ```shell
 npm ci
 ```
-Buat database MySQL seperti pada file database/db.sql
-Siapkan database MySQL Anda dan perbarui konfigurasi database di file app.js dan passport-config.js dengan kredensial Anda.
+Buat koneksi database MongoDB 
+Siapkan aplikasi mongodb dan mongodb compass Anda dan perbarui konfigurasi database di file main.js dan passport-config.js dengan kredensial Anda.
 
 Jalankan aplikasi:
 
@@ -40,11 +40,11 @@ Halaman Utama
 Halaman Update
 ![Update](image/halaman_update.png)
 
-Fungsi Search
-![Search](image/search.png)
+Fungsi Add New Data
+![Search](image/halaman_add.png)
 
 ---
 
 ## Keterangan
-- Mengambil referensi dari https://github.com/TadeopCreator/crud-nodejs-mysql sebagai program utama CRUD lalu dikembangkan dengan menambahkan login dan register page dengan sesi, tombol logout, dan fitur pencarian
-- Pada database crudnodejsmysql pada tabel customer berisikan data mahasiswa dan pada tabel user berisikan nama, email, dan password yang digunakan untuk autentikasi
+- Mengambil referensi dari https://www.youtube.com/watch?v=7NnBCKJTZkc&list=PL6u82dzQtlfvJoAWdyf5mUxPQRnNKCMGt&index=5 dan https://www.youtube.com/watch?v=-RCnNyD0L-s&list=WL&index=3&t=1600s sebagai program utama CRUD lalu dikembangkan dengan menambahkan login dan register page dengan sesi, tombol logout, dan fitur pencarian
+- Pada database mongodb pada tabel user berisikan data orang dan pada tabel user berisikan nama, email, username, level, image dan password yang digunakan untuk autentikasi
