@@ -1,0 +1,19 @@
+<h1>Hi <%= name %></h1>
+<a href="#" id="logout-link">Logout</a>
+
+<script>
+  document.getElementById('logout-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    fetch('/logout', {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+    .then(response => {
+      if (response.ok) {
+        window.location.href = '/login';
+      }
+    });
+  });
+</script>
