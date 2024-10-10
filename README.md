@@ -32,8 +32,8 @@ Halaman Register
 ![Register](image/register.png)
 
 Halaman Utama
-- Menampilkan daftar mahasiswa yang sudah diinput
-- Mengedit dan menghapus mahasiswa
+- Menampilkan daftar user yang sudah diinput
+- Mengedit dan menghapus user
 - Melakukan pencarian
 ![CRUD](image/halaman_crud.png)
 
